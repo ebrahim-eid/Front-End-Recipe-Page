@@ -1,0 +1,121 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: youngserif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 1.5rem;
+    padding: 10px;
+  }
+  
+  ul,
+  ol {
+    padding-left: 20px;
+  }
+  
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+  
+  h1{
+    font-family: youngserif;
+    color: hsl(14, 45%, 36%);
+  }
+  
+  h2{
+    font-family: youngserif;
+    color: hsl(14, 45%, 36%);
+    margin-top: 10px;
+  }
+  p,
+  li {
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+  }
+  
+  li {
+    margin-top: 0.5rem;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin-inline: auto;
+    background-color: #fff;
+  }
+  
+  .container div{
+    padding: 1.5rem;
+  }
+  .container .nutrition{
+    padding-bottom: 0px;
+  }
+  
+  .main-title h1 {
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1rem;
+    font-size: 48px;
+  }
+  
+  .main-title article {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .main-title article h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-hr{
+    border: none;  
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+    margin-left: 25px;
+  }
+.nutrition-hr{
+  border: none;  
+  border-bottom: 1px solid hsl(30, 18%, 87%); 
+  margin-left: -20px;
+}
+  .nutrition-description{
+    padding-top: 20px;
+    font-family: outfit;
+    font-size: 16px;
+  }
+  .nutrition .items{
+    padding-bottom: 1rem;
+    display: flex;
+  }
+
+ 
+  .nutrition .items  > *{
+    width: 100px;
+    margin-right: auto;
+  }
+
+  
+  .nutrition .value{
+    font-weight: 700;
+    color:hsl(14, 45%, 36%);
+  }
+  @media (min-width: 768px) {
+    .container {
+      margin: 5rem auto 0;
+      padding: 2rem;
+      border-radius: 2rem;
+    } 
+  }
