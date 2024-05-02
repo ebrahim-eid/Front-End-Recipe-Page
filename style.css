@@ -95,9 +95,10 @@
     padding-top: 20px;
     font-family: outfit;
     font-size: 16px;
+    margin-bottom: -20px;
   }
   .nutrition .items{
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     display: flex;
   }
 
@@ -112,9 +113,14 @@
     font-weight: 700;
     color:hsl(14, 45%, 36%);
   }
+
+#last-item{
+  margin-bottom: -25px;
+}
+
   @media (min-width: 768px) {
     .container {
-      margin: 5rem auto 0;
+      margin: 10rem auto 0;
       padding: 2rem;
       border-radius: 2rem;
     } 
